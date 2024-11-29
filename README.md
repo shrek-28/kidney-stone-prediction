@@ -15,7 +15,7 @@ In the univariate analysis of the variables, the following facts were obtained:
 - The distribution of cond was skewed to the right and was a multimodal distribution, indicating a fixed lower boundary
 
 Visualizations of Graphs:
-![images/calc_dist.png]
+![calc_dist](images/calc_dist.png)
 ![images/cond_dist.png]
 ![images/gravity_dist.png]
 ![images/osmo_dist.png]
