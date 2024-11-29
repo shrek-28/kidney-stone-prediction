@@ -1,7 +1,7 @@
 # Binary Classification with a Tabular Kidney Stone Prediction Dataset 
 
 ## Flow of the Project 
-![images/Screenshot 2024-11-29 205811.png] 
+![[images/Screenshot 2024-11-29 205811.png](https://github.com/shrek-28/kidney-stone-prediction/blob/169f2f576150d5438cb2920f5c1e6396105f18a2/images/target_var_count.png)] 
 
 This image describes the general flow, of the project and design of the project, where the [dataset](https://www.kaggle.com/competitions/playground-series-s3e12/data) was obtained from Kaggle. Extensive exploratory data analysis (EDA) was conducted with the data, followed by preprocessing. Three machine learning classification models were used, Logistic Regression, K-Nearest Neighbours and Support Vector Machines. The SVM model yielded the highest AUC score of 0.84. 
 
