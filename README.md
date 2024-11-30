@@ -1,14 +1,32 @@
 # Binary Classification with a Tabular Kidney Stone Prediction Dataset 
 
+## ![image](https://github.com/user-attachments/assets/83ddac1d-012f-4d89-8744-0ca6b85a6072) Project Overview 
+This project aims to predict the likelihood of kidney stone formation using a binary classification approach on a tabular dataset. The dataset was sourced from ![Kaggle's Playground Series](https://www.kaggle.com/competitions/playground-series-s3e12/data)
+
+The pipeline involves Exploratory Data Analysis (EDA), Data Preprocessing, and the implementation of three machine learning models:
+- Logistic Regression
+- K-Nearest Neighbors (KNN)
+- Support Vector Machines (SVM)
+Among these, the SVM model achieved the highest performance with an AUC score of 0.84.
+
 ## Flow of the Project 
 ![image](https://github.com/shrek-28/kidney-stone-prediction/blob/main/images/Screenshot%202024-11-29%20205811.png)
 
-This image describes the general flow, of the project and design of the project, where the [dataset](https://www.kaggle.com/competitions/playground-series-s3e12/data) was obtained from Kaggle. Extensive exploratory data analysis (EDA) was conducted with the data, followed by preprocessing. Three machine learning classification models were used, Logistic Regression, K-Nearest Neighbours and Support Vector Machines. The SVM model yielded the highest AUC score of 0.84. 
+The project is divided into three main stages:
+1. Exploratory Data Analysis (EDA):
+- Comprehensive analysis to understand feature distributions, correlations, and target variable characteristics.
+- Identified insights that informed the preprocessing steps and modeling decisions.
+📄 ![View Notebook](https://github.com/shrek-28/kidney-stone-prediction/blob/main/Exploratory%20Data%20Analysis.ipynb)
 
-The three steps in the project can be visualized in the following notebooks with detailed documentation and explanation of code:
-1. [Exploratory Data Analysis](https://github.com/shrek-28/kidney-stone-prediction/blob/main/Exploratory%20Data%20Analysis.ipynb)
-2. [Data Preprocessing](https://github.com/shrek-28/kidney-stone-prediction/blob/main/Data%20Preprocessing.ipynb)
-3. [Machine Learning Models](https://github.com/shrek-28/kidney-stone-prediction/blob/main/Machine%20Learning%20Models.ipynb)
+2. Data Preprocessing:
+- Addressed missing values, outliers, and feature transformations.
+- Engineered features for better predictive power.
+- Scaled data for algorithms sensitive to feature magnitudes.
+📄 ![View Notebook]((https://github.com/shrek-28/kidney-stone-prediction/blob/main/Data%20Preprocessing.ipynb )
 
-
+3. Machine Learning Models 
+- Implemented three machine learning models.
+- Hyperparameter tuning using GridSearchCV for optimal performance.
+- Compared models based on metrics like AUC, precision, and recall.
+📄 ![View Notebook](https://github.com/shrek-28/kidney-stone-prediction/blob/main/Machine%20Learning%20Models.ipynb)
 
