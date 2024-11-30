@@ -8,5 +8,7 @@ This image describes the general flow, of the project and design of the project,
 The three steps in the project can be visualized in the following notebooks with detailed documentation and explanation of code:
 1. [Exploratory Data Analysis](https://github.com/shrek-28/kidney-stone-prediction/blob/main/Exploratory%20Data%20Analysis.ipynb)
 2. [Data Preprocessing](https://github.com/shrek-28/kidney-stone-prediction/blob/main/Data%20Preprocessing.ipynb)
-3. 
+3. [Machine Learning Models](https://github.com/shrek-28/kidney-stone-prediction/blob/main/Machine%20Learning%20Models.ipynb)
+
+
 
