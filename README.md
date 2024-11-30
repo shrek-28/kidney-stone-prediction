@@ -1,6 +1,6 @@
 # Binary Classification with a Tabular Kidney Stone Prediction Dataset 
 
-## [image](https://github.com/user-attachments/assets/83ddac1d-012f-4d89-8744-0ca6b85a6072) Project Overview 
+## Project Overview 
 This project aims to predict the likelihood of kidney stone formation using a binary classification approach on a tabular dataset. The dataset was sourced from [Kaggle's Playground Series](https://www.kaggle.com/competitions/playground-series-s3e12/data)
 
 The pipeline involves Exploratory Data Analysis (EDA), Data Preprocessing, and the implementation of three machine learning models:
